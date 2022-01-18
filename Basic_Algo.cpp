@@ -36,7 +36,8 @@ int main()
 
     int ans = accumulate(vec.begin(), vec.end(), 0);
     cout << "Summation is " << ans << endl;
-
+    
+    // This commit is done in Github 
     
     cout<<"occurance of 4 is "<<count(vec.begin(),vec.end(),4)<<endl;
     find(vec.begin(), vec.end(),5) != vec.end()?cout << "\nElement found": cout << "\nElement not found";
