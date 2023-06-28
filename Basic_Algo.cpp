@@ -13,7 +13,7 @@ int main()
         cout << " " << vec.at(i);
     }
     cout << endl;
-
+//this is stl sort function
     sort(vec.begin(), vec.end());
     cout << "Vector Elements are After sorting... " << endl;
     for (int i = 0; i < vec.size(); i++)
